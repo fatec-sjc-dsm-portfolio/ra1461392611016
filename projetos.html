@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetos / APIs | Portfólio digital</title>
+    <meta name="description"
+        content="Página com os projetos semestrais do Portfólio digital, organizados por semestre e com imagens dos trabalhos.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gimg.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="brand">
+            <span class="brand-mark">GM</span>
+            <div>
+                <p class="brand-kicker">Portfólio digital</p>
+                <h1>Projetos / APIs</h1>
+            </div>
+        </div>
+        <nav class="site-nav" aria-label="Navegação principal">
+            <a class="nav-link" href="index.html">Início</a>
+            <a class="nav-link active" href="projetos.html">Projetos / APIs</a>
+            <a class="nav-link" href="carreira.html">Carreira</a>
+            <div class="nav-divider"></div>
+            <a class="nav-icon" href="https://github.com/Tuuca" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v 3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                </svg>
+            </a>
+            <a class="nav-icon" href="https://www.linkedin.com/in/gabriel-da-cunha-de-macedo-199890250/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.475-2.236-1.986-2.236-1.081 0-1.722.732-2.004 1.438-.103.252-.129.604-.129.957v5.41h-3.553v-10.976h3.553v1.508c.469-.723 1.306-1.755 3.182-1.755 2.324 0 4.061 1.52 4.061 4.784v6.439zM5.337 8.855c-1.144 0-2.083-.929-2.083-2.076 0-1.148.939-2.076 2.083-2.076s2.083.928 2.083 2.076c0 1.147-.939 2.076-2.083 2.076zm1.782 11.597H3.555V9.476h3.564v10.976zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/>
+                </svg>
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="projects-hero">
+            <p class="eyebrow">Projetos semestrais</p>
+            <h2>Resumo das APIs desenvolvidas ao longo do curso</h2>
+            <p>
+                A API (Aprendizagem por Projetos Integrados), desenvolvida no escopo do CADI, é uma
+                metodologia de ensino implantada na Fatec São José dos Campos desde o segundo semestre de
+                2019. Essa abordagem organiza projetos semestrais com finalidade acadêmica e prática, nos quais
+                os estudantes desenvolvem soluções para demandas reais, frequentemente propostas por clientes
+                externos ou parceiros institucionais
+            </p>
+        </section>
+
+        <section class="projects-list">
+            <article class="project-card">
+                <div class="project-media">
+                    <img src="img/codificados.jpg" alt="Logo do grupo Codificados">
+                </div>
+                <div class="project-content">
+                    <p class="project-semester">1º semestre - 2022.1</p>
+                    <h3>Codificados</h3>
+                    <p><strong>Cliente:</strong> Cliente interno da FATEC, professor Fabrício Galende</p>
+                    <p><strong>Tema:</strong> Sistema de gestão de serviços de tecnologia da informação</p>
+                    <p><strong>Problema:</strong> Controlar solicitações de serviços de TI para usuários e técnicos.</p>
+                    <p><strong>Solução:</strong> Sistema web para abertura e avaliação de chamados, com Flask e MySQL.
+                    </p>
+                    <img class="project-shot" src="img/codificados-relatorio.gif"
+                        alt="Página de relatórios do administrador">
+                    <div class="chip-row">
+                        <span>Figma</span>
+                        <span>Python</span>
+                        <span>Flask</span>
+                        <span>MySQL</span>
+                        <span>Trello</span>
+                    </div>
+                    <p><strong>Contribuição: </strong>Minha atuação concentrou-se principalmente na função de Product
+                        Owner, com responsabilidades relacionadas à organização do backlog, planejamento das sprints e
+                        distribuição das tarefas
+                        entre os integrantes da equipe. Essa experiência foi importante para desenvolver habilidades de
+                        liderança, comunicação, priorização de demandas e acompanhamento do progresso do projeto.
+                    </p>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <div class="project-media">
+                    <img src="img/the_seven.jpg" alt="Logo do grupo TheSeven">
+                </div>
+                <div class="project-content">
+                    <p class="project-semester">2º semestre - 2022.2</p>
+                    <h3>TheSeven</h3>
+                    <p><strong>Cliente:</strong> Empresa de desenvolvimento de software Midall</p>
+                    <p><strong>Tema:</strong> Gerenciamento e identificação de associados no Diário Oficial do Estado de
+                        São Paulo</p>
+                    <p><strong>Problema:</strong> Identificar associados e gerenciar os registros com mais agilidade.
+                    </p>
+                    <p><strong>Solução:</strong> Sistema web com React, Node.js e MySQL, apoiado por um bot de web
+                        scraping em Python.</p>
+                    <img class="project-shot" src="img/the_seven-relatorio.jpg"
+                        alt="Página de relatórios do administrador">
+                    <div class="chip-row">
+                        <span>Figma</span>
+                        <span>JavaScript</span>
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>Python</span>
+                        <span>MySQL</span>
+                    </div>
+                    <p><strong>Contribuição:</strong> Minha atuação ocorreu principalmente como desenvolvedor, com foco
+                        na criação de um bot
+                        responsável por realizar o processo de web scraping no Diário Oficial. Esse bot fazia o download
+                        das
+                        páginas, convertia os conteúdos em arquivos PDF, agrupava as páginas em cadernos e armazenava
+                        no banco de dados MySQL os parágrafos em que os associados eram citados.
+                    </p>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <div class="project-media">
+                    <img src="img/copilotteam.jpg" alt="Logo do grupo CopiloTTeam">
+                </div>
+                <div class="project-content">
+                    <p class="project-semester">3º semestre - 2023.1</p>
+                    <h3>CopiloTTeam</h3>
+                    <p><strong>Cliente:</strong> Empresa de desenvolvimento de software Pro4Tech</p>
+                    <p><strong>Tema:</strong> Gestão financeira e comercial com automatização de processos</p>
+                    <p><strong>Problema:</strong> Cadastro manual de títulos, endereços e relatórios financeiros.</p>
+                    <p><strong>Solução:</strong> Sistema com cadastro de clientes, títulos e parcelas, integrado à API
+                        dos Correios.</p>
+                    <img class="project-shot" src="img/copilotteam-parcelas.jpg" alt="Página de parcelas do sistema">
+                    <div class="chip-row">
+                        <span>Figma</span>
+                        <span>TypeScript</span>
+                        <span>React</span>
+                        <span>Java</span>
+                        <span>Spring Boot</span>
+                        <span>MySQL</span>
+                    </div>
+                    <p><strong>Contribuição:</strong> Minha atuação ocorreu como desenvolvedor, com foco
+                        principal no backend do
+                        sistema, utilizando Java e Spring Boot. Essa experiência ampliou meu contato com o
+                        desenvolvimento de aplicações mais estruturadas, regras de negócio, organização de camadas e
+                        integração
+                        entre frontend, backend e banco de dados</p>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <div class="project-media">
+                    <img src="img/vitality.png" alt="Logo do grupo Vitality">
+                </div>
+                <div class="project-content">
+                    <p class="project-semester">4º semestre - 2023.2</p>
+                    <h3>Vitality</h3>
+                    <p><strong>Cliente:</strong> Empresa Tecsus.</p>
+                    <p><strong>Tema:</strong> Sistema de Coleta de Dados de Estações Meteorológicas.</p>
+                    <p><strong>Problema:</strong> Integração de dados de múltiplas estações meteorológicas em um único
+                        sistema.</p>
+                    <p><strong>Solução:</strong> Desenvolvimento de um sistema para coleta, processamento e visualização
+                        de dados meteorológicos em tempo real.</p>
+                    <img class="project-shot" src="img/vitality-dashboard.png" alt="Página de dashboard do sistema">
+                    <div class="chip-row">
+                        <span>TypeScript</span>
+                        <span>React</span>
+                        <span>Testes</span>
+                    </div>
+                    <p><strong>Contribuição:</strong> Minha atuação foi como desenvolvedor, com foco principal no
+                        auxílio à criação de testes e na
+                        realização de correções pontuais no sistema. Essa experiência contribuiu para meu
+                        desenvolvimento
+                        na identificação de falhas, validação de funcionalidades e melhoria da qualidade do software,
+                        além
+                        de reforçar a importância dos testes no processo de desenvolvimento de soluções confiáveis.
+                    </p>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <div class="project-media">
+                    <img src="img/from_zero.png" alt="Logo do grupo FromZero">
+                </div>
+                <div class="project-content">
+                    <p class="project-semester">5º semestre - 2026.1</p>
+                    <h3>FromZero</h3>
+                    <p><strong>Cliente:</strong> Empresa de desenvolvimento de software Xertica.ai</p>
+                    <p><strong>Tema:</strong> Precedentes Jurídicos e Petições</p>
+                    <p><strong>Problema:</strong> Demora na análise de precedentes jurídicos</p>
+                    <p><strong>Solução:</strong> PrecedentIA, sistema com IA Generativa para apoio à análise de
+                        precedentes jurídicos</p>
+                    <img class="project-shot" src="img/from_zero-precedentes.jfif"
+                        alt="Página de precedentes do sistema">
+                    <div class="chip-row">
+                        <span>Python</span>
+                        <span>Flask</span>
+                        <span>IA Generativa</span>
+                        <span>Web Scraping</span>
+                        <span>Busca Semântica</span>
+                    </div>
+                    <p><strong>Contribuição:</strong> Minha atuação ocorreu como desenvolvedor, com foco nos serviços de
+                        web scraping e
+                        embedding. No serviço de scraping, contribuí para a coleta e armazenamento automático de
+                        precedentes jurídicos a partir de fontes públicas, disponibilizando esses dados em cache para
+                        consumo por outros serviços da plataforma. Essa atividade fortaleceu minha experiência com
+                        automação de coleta de dados, organização de informações jurídicas e integração entre serviços.
+                        Para o serviço de embeddings, ajudei no desenvolvimento do sistema em Python, responsável por
+                        transformar
+                        precedentes jurídicos e petições iniciais em vetores semânticos. Além disso, participei da etapa
+                        de reranking dos resultados utilizando Cross Encoder, o que contribuiu para meu desenvolvimento
+                        em aplicações de Inteligência Artificial, busca semântica, processamento de linguagem natural e
+                        construção de soluções voltadas a problemas reais de alta complexidade.
+                    </p>
+                </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>Portfólio digital desenvolvido para apresentar a evolução nos projetos semestrais.</p>
+    </footer>
+</body>
+
+</html>
